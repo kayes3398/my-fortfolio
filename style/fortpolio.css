@@ -20,6 +20,7 @@ nav{
   display: flex;
   justify-content: space-between;
   margin: 0px auto;
+  
 }
 .menu{
   display: flex;
@@ -55,8 +56,10 @@ nav{
   border:2px solid red;
   display:flex;
   align-items: center;
+  justify-content: space-between;
   max-width: 1334px;
   height: 676px;
+  margin:0px auto;
  }
  .btn{
   /* display: flex; */
@@ -89,4 +92,39 @@ nav{
  .banner .banner-img img{
   max-width: 585px;
   vertical-align: middle;
+  border:2px solid red;
+
+ }
+ /* header{
+   background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: 23px 38px, bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    border:2px solid red;
+    max-width: 1600px;
+    margin:0 auto;
+
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+ header{
+  background-color: #FFF8F3;
+  background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+  background-position: top left,bottom right;
+  background-repeat:no-repeat;
+  max-width: 1600px;
+    margin:0 auto;
+
+
  }
